@@ -29,4 +29,4 @@ books.forEach((book, index) => {
   list.append(button);
 });
 document.querySelector('.close').addEventListener('click', () => dialog.close());
-document.querySelector('#open-books').addEventListener('click', () => document.querySelector('.catalog').scrollIntoView({ behavior: 'smooth' }));
+
